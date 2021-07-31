@@ -1,0 +1,119 @@
+[2021-07-31 13:04:38.691] [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started
+[2021-07-31 13:04:39.023] [main] DEBUG o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext
+[2021-07-31 13:04:40.169] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\service\HiBoardService.class]
+[2021-07-31 13:04:40.172] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\service\UserService.class]
+[2021-07-31 13:04:40.353] [main] DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 19 bean definitions from ServletContext resource [/WEB-INF/config/spring/root-context.xml]
+[2021-07-31 13:04:40.559] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-07-31 13:04:40.822] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[2021-07-31 13:04:41.041] [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2021-07-31 13:04:41.075] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-07-31 13:04:41.086] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+[2021-07-31 13:04:41.087] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-07-31 13:04:41.112] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-07-31 13:04:41.118] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2021-07-31 13:04:41.135] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2021-07-31 13:04:41.394] [main] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@19d5bed6]
+[2021-07-31 13:04:41.418] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'env'
+[2021-07-31 13:04:41.498] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-07-31 13:04:41.520] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+[2021-07-31 13:04:41.648] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariConfig'
+[2021-07-31 13:04:42.353] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+[2021-07-31 13:04:43.860] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionFactory'
+[2021-07-31 13:04:44.965] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionTemplate'
+[2021-07-31 13:04:45.009] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+[2021-07-31 13:04:45.090] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+[2021-07-31 13:04:45.170] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hiBoardService'
+[2021-07-31 13:04:45.216] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hiBoardDao'
+[2021-07-31 13:04:45.791] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userService'
+[2021-07-31 13:04:45.793] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userDao'
+[2021-07-31 13:04:45.848] [main] DEBUG o.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[2021-07-31 13:04:45.854] [main] DEBUG o.s.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[2021-07-31 13:04:45.854] [main] DEBUG o.springframework.jndi.JndiTemplate - Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[2021-07-31 13:04:45.855] [main] DEBUG o.s.jndi.JndiPropertySource - JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[2021-07-31 13:04:45.864] [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext initialized in 7137 ms
+[2021-07-31 13:04:45.950] [main] DEBUG o.s.w.filter.CharacterEncodingFilter - Filter 'encodingFilter' configured for use
+[2021-07-31 13:04:46.052] [main] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2021-07-31 13:04:46.052] [main] DEBUG o.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[2021-07-31 13:04:46.053] [main] DEBUG o.s.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[2021-07-31 13:04:46.054] [main] DEBUG o.springframework.jndi.JndiTemplate - Looking up JNDI object with name [spring.profiles.active]
+[2021-07-31 13:04:46.054] [main] DEBUG o.s.jndi.JndiPropertySource - JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[2021-07-31 13:04:46.054] [main] DEBUG o.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[2021-07-31 13:04:46.055] [main] DEBUG o.s.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[2021-07-31 13:04:46.055] [main] DEBUG o.springframework.jndi.JndiTemplate - Looking up JNDI object with name [spring.profiles.default]
+[2021-07-31 13:04:46.056] [main] DEBUG o.s.jndi.JndiPropertySource - JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[2021-07-31 13:04:46.065] [main] DEBUG o.s.w.c.s.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet'
+[2021-07-31 13:04:46.263] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\controller\HiBoardController.class]
+[2021-07-31 13:04:46.265] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\controller\IndexController.class]
+[2021-07-31 13:04:46.267] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\controller\UserController.class]
+[2021-07-31 13:04:46.518] [main] DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 34 bean definitions from ServletContext resource [/WEB-INF/config/spring/servlet-context.xml]
+[2021-07-31 13:04:46.574] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-07-31 13:04:46.813] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-07-31 13:04:46.819] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-07-31 13:04:46.829] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-07-31 13:04:46.829] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2021-07-31 13:04:46.832] [main] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@2e6a6742]
+[2021-07-31 13:04:46.833] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hiBoardController'
+[2021-07-31 13:04:46.854] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'indexController'
+[2021-07-31 13:04:46.855] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userController'
+[2021-07-31 13:04:46.865] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+[2021-07-31 13:04:46.961] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+[2021-07-31 13:04:47.333] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcCorsConfigurations'
+[2021-07-31 13:04:47.335] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+[2021-07-31 13:04:47.340] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+[2021-07-31 13:04:47.930] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
+[2021-07-31 13:04:47.939] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#2'
+[2021-07-31 13:04:47.989] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#3'
+[2021-07-31 13:04:48.000] [main] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-07-31 13:04:48.000] [main] DEBUG c.i.web.interceptor.AuthInterceptor - # AuthInterceptor                                                          #
+[2021-07-31 13:04:48.000] [main] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-07-31 13:04:48.000] [main] DEBUG c.i.web.interceptor.AuthInterceptor - //////////////////////////////////////////////////
+[2021-07-31 13:04:48.001] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // Auth Cookie Name                             //
+[2021-07-31 13:04:48.001] [main] DEBUG c.i.web.interceptor.AuthInterceptor - //////////////////////////////////////////////////
+[2021-07-31 13:04:48.001] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // USER_ID
+[2021-07-31 13:04:48.001] [main] DEBUG c.i.web.interceptor.AuthInterceptor - //////////////////////////////////////////////////
+[2021-07-31 13:04:48.002] [main] DEBUG c.i.web.interceptor.AuthInterceptor - //////////////////////////////////////////////////
+[2021-07-31 13:04:48.002] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // Ajax Header Name                             //
+[2021-07-31 13:04:48.002] [main] DEBUG c.i.web.interceptor.AuthInterceptor - //////////////////////////////////////////////////
+[2021-07-31 13:04:48.002] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // AJAX
+[2021-07-31 13:04:48.002] [main] DEBUG c.i.web.interceptor.AuthInterceptor - //////////////////////////////////////////////////
+[2021-07-31 13:04:48.002] [main] DEBUG c.i.web.interceptor.AuthInterceptor - //////////////////////////////////////////////////
+[2021-07-31 13:04:48.013] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // Auth Exclude Url                             //
+[2021-07-31 13:04:48.014] [main] DEBUG c.i.web.interceptor.AuthInterceptor - //////////////////////////////////////////////////
+[2021-07-31 13:04:48.020] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /index
+[2021-07-31 13:04:48.021] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /user/login
+[2021-07-31 13:04:48.021] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /user/loginOut
+[2021-07-31 13:04:48.021] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /user/regForm
+[2021-07-31 13:04:48.021] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /user/regProc
+[2021-07-31 13:04:48.021] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /user/idCheck
+[2021-07-31 13:04:48.021] [main] DEBUG c.i.web.interceptor.AuthInterceptor - //////////////////////////////////////////////////
+[2021-07-31 13:04:48.022] [main] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-07-31 13:04:48.183] [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 11 mappings in 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+[2021-07-31 13:04:48.184] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+[2021-07-31 13:04:49.080] [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: none
+[2021-07-31 13:04:49.262] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+[2021-07-31 13:04:49.275] [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: none
+[2021-07-31 13:04:49.287] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+[2021-07-31 13:04:49.348] [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: none
+[2021-07-31 13:04:49.350] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+[2021-07-31 13:04:49.368] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+[2021-07-31 13:04:49.381] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+[2021-07-31 13:04:49.412] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+[2021-07-31 13:04:49.414] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+[2021-07-31 13:04:49.416] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+[2021-07-31 13:04:49.417] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcPathMatcher'
+[2021-07-31 13:04:49.418] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUrlPathHelper'
+[2021-07-31 13:04:49.418] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2021-07-31 13:04:49.473] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+[2021-07-31 13:04:49.485] [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/resources/**] in 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+[2021-07-31 13:04:49.485] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.view.BeanNameViewResolver#0'
+[2021-07-31 13:04:49.506] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'internalResourceViewResolver'
+[2021-07-31 13:04:49.558] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'fileDownloadView'
+[2021-07-31 13:04:49.564] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'multipartResolver'
+[2021-07-31 13:04:49.741] [main] DEBUG o.s.web.servlet.DispatcherServlet - Detected CommonsMultipartResolver
+[2021-07-31 13:04:49.766] [main] DEBUG o.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[2021-07-31 13:04:49.767] [main] DEBUG o.s.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[2021-07-31 13:04:49.767] [main] DEBUG o.springframework.jndi.JndiTemplate - Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[2021-07-31 13:04:49.768] [main] DEBUG o.s.jndi.JndiPropertySource - JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[2021-07-31 13:04:49.769] [main] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2021-07-31 13:04:49.769] [main] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3717 ms
+[2021-07-31 14:19:38.642] [main] DEBUG o.s.w.c.s.XmlWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet', started on Sat Jul 31 13:04:46 KST 2021, parent: Root WebApplicationContext
