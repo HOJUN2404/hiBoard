@@ -13,7 +13,7 @@ $(document).ready(function() {
 		
 		// 모든 공백 체크 정규식
 		var emptCheck = /\s/g;
-		// 영문 대소문자, 숫자로만 이루어진 4~12자리 정규식 //여기에서 git-hub 테스트 해보자 
+		// 영문 대소문자, 숫자로만 이루어진 4~12자리 정규식 //여기에서 git-hub 테스트 해보자 //Twice Test
 		var idPwCheck = /^[a-zA-Z0-9]{4,12}$/;
 				
 		if($.trim($("#userId").val()).length <= 0)
