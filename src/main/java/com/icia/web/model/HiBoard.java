@@ -16,7 +16,7 @@ public class HiBoard implements Serializable
 	private String hiBbsContent;	// 게시물 내용
 	private int hiBbsReadCnt;		// 게시물 조회수
 	private String regDate;			// 게시물 등록일
-	private int hiBbsParent;		// 부모 게시물 번호
+	private long hiBbsParent;		// 부모 게시물 번호
 	
 	private String userName;		// 사용자 이름
 	private String userEmail; 		// 사용자 이메일
@@ -143,11 +143,11 @@ public class HiBoard implements Serializable
 		this.regDate = regDate;
 	}
 
-	public int getHiBbsParent() {
+	public long getHiBbsParent() {
 		return hiBbsParent;
 	}
 
-	public void setHiBbsParent(int hiBbsParent) {
+	public void setHiBbsParent(long hiBbsParent) {
 		this.hiBbsParent = hiBbsParent;
 	}
 

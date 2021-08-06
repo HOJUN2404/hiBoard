@@ -636,12 +636,6 @@ public class Paging implements Serializable
 			prevBlockPage = ( startPage - 1 );
 		}
 		
-		// 이전 블럭 페이지 번호
-		if(curBlock > 1)
-		{
-			prevBlockPage = ( startPage - 1 );
-		}
-		
 		// 다음 블럭 페이지 번호
 		if(curBlock < totalBlock)
 		{
